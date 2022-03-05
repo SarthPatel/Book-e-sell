@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="headersection">
+            <div id="Topheaderpart">
+                <div id="logo">
+                    <img src="../images/site-logo.svg" alt="ahfa">
+                </div>
+                <div id="login-register_label">
+                    <a href="#" class="h3-headersection"> Login </a>
+                    <h3> | </h3>
+                    <a href="#" class="h3-headersection"> Register </a>
+                </div>
+
+                <div id="cart">
+                    <img src="../images/cart.svg" alt="cart">
+                    <span> 0 </span>
+                </div>
+            </div>
+
+
+            <div id="bottomheaderpart">
+                <input type="text" id="Serchingtab" placeholder="What you are Serchiing For">
+                <button id="searchbtn" class="headerbtn">
+                    <img src="../images/search.svg" alt="">
+                    <h3>Search</h3>
+                </button>
+
+                <button id="cancelbtn" class="headerbtn">
+                    <h3>Cancel</h3>
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="container">
+
+            <div id="uppersection">
+                <ul id="pagedirection">
+                    <li><a href="#" class="pagelink">
+                            <h3> Home </h3>
+                        </a></li>
+                    <li><a href="#" class="pagelink"><img src="../images/breadcrumb-arrow.svg" alt=""></a></li>
+                    <li><a href="#" class="pagelink">
+                            <h3 id="pagename"> Login </h3>
+                        </a></li>
+                </ul>
+
+                <h1> Login or Create an Acccount </h1>
+            </div>
+        </div>
+
+        <div class="loginsection">
+            <div id="newcustomer">
+                <div class="customerlabel">
+                    <h2> New Customer </h2>
+                </div>
+                <hr>
+                <div id="NewCustinformation">
+                    <p> Registration is free and easy </p>
+
+                    <ul>
+                        <li> Faster Checkout </li>
+                        <li> Save multiple shipping addresses </li>
+                        <li> View and track orders and more </li>
+                    </ul>
+                </div>
+
+                <div id="loginpagenewcustbtndiv">
+                    <button class="loginpageformbtn" id="createanaccbtn">
+                        Create an Account
+                    </button>
+                </div>
+            </div>
+
+            <div id="RegisteredCustomer">
+                <div class="customerlabel">
+                    <h2> Registered Customers </h2>
+                </div>
+                <hr>
+                <div id="Registeredlabel">
+                    <p> If you have an account with us, please log in </p>
+                </div>
+
+                <div id="loginpageEmaildiv">
+                    <label for="loginEmail" id="loginEmaillabel"> Email Address *</label>
+                    <input type="email" name="loginEmail" id="loginEmail">
+                </div>
+
+                <div id="loginpagepassworddiv">
+                    <label for="loginPassword" id="loginPasswordlabel"> Password *</label>
+                    <input type="password" name="loginPassword" id="loginPassword">
+                </div>
+
+                <div id="loginpageRegisteredbtndiv">
+                    <button class="loginpageformbtn" id="loginbtn">
+                        Login
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyrightdata">
+            <p>© 2022 Tatvasoft.com. All rights reserved.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

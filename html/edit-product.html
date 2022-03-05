@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Product List</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headersection">
+            <div id="Topheaderpart">
+                <div id="logo">
+                    <img src="../images/site-logo.svg" alt="ahfa">
+                </div>
+                <div id="login-register_label">
+                    <a href="#" class="h3-headersection"> Login </a>
+                    <h3> | </h3>
+                    <a href="#" class="h3-headersection"> Register </a>
+                </div>
+
+                <div id="cart">
+                    <img src="../images/cart.svg" alt="cart">
+                    <span> 0 </span>
+                </div>
+            </div>
+
+            <div id="bottomheaderpart">
+                <input type="text" id="Serchingtab" placeholder="What you are Serchiing For">
+                <button id="searchbtn" class="headerbtn">
+                    <img src="../images/search.svg" alt="">
+                    <h3>Search</h3>
+                </button>
+
+                <button id="cancelbtn" class="headerbtn">
+                    <h3>Cancel</h3>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="booklistcontainer">
+            <div id="booklisttitle">
+                <h1> Edit Product </h1>
+            </div>
+
+            <div class="EditProductForm">
+                <div class="EditFirstnamediv Editproductdiv">
+                    <label for="EPFirstName" class="Editproductlabels"> First Name * </label>
+                    <input type="text" name="EPFirstName" class="inputbox">
+                </div>
+                <div class="EditLastnamediv Editproductdiv">
+                    <label for="EPLastName" class="Editproductlabels"> Last Name * </label>
+                    <input type="text" name="EPLastName" class="inputbox">
+                </div>
+                <div class="Editcategoriesdiv Editproductdiv">
+                    <p> Shop By Categories </p>  
+                    <select name="EPcategorieName" id="EPcategorieName" class="inputbox">
+                        <option value="Novel"> Novel </option>
+                        <option value="Engineering"> Engineering </option>
+                        <option value="Medical"> Medical </option>
+                    </select>
+                </div>
+                <div class="Editdescriptiondiv Editproductdiv">
+                    <label for="EPdiscription" class="Editproductlabels"> Description </label>
+                    <input type="text" name="EPdiscription" class="inputbox">
+                </div>                
+                <div class="choosefilediv Editproductdiv">
+                    <Button class="btnclass" id="uploadbtn">
+                        Upload
+                    </Button>
+                    <input type="text" name="selectedpicture" id="selectedpicture" placeholder="No File Choosen" class="inputbox">                    
+                </div>
+                <div class="btndiv">
+                    <button id="savebtn" class="btnclass"> Save </button>
+                    <button id="cancelebtn" class="btnclass"> Cancel </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyrightdata">
+            <p>© 2022 Tatvasoft.com. All rights reserved.</p>
+        </div>
+
+    </footer>
+</body>
+</html>

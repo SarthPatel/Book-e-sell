@@ -1,0 +1,914 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Register Css */
+/* Header section */
+
+.headersection{
+    display: flex;
+    flex-direction: column;
+}
+
+.headersection h3 {
+    display: flex;
+    margin: 27px 7px;
+    color: rgb(63, 60, 60);
+}
+
+#Topheaderpart{
+    display: flex;
+    height: 115px;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+#login-register_label{
+    display: flex;
+    position: absolute;
+    right: 189px;
+}
+
+#login-register_label a,#login-register_label h3{
+    color: #f14d54;;
+}
+
+.h3-headersection{
+    display: flex;
+    margin: 29px 7px;
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+}
+
+#cart{
+    display: flex;
+    position: absolute;
+    right: 153px;
+    top: 24px;
+    cursor: pointer;
+}
+
+.headersection span{
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: -10px;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    top: -10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottomheaderpart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6E6;
+}
+
+#Serchingtab{
+    margin: 25px;
+    width: 358px;
+    padding: 13px;
+    border-radius: 6px;
+}
+
+.headerbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.headerbtn h3{
+    color: #fff;
+}
+#searchbtn{
+    background-color: #509e2f;
+    color: #fff;
+}
+
+#cancelbtn{
+    background-color: #f14d54;
+}
+
+/* section CSS */
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 23px;
+
+}
+
+#uppersection h1{
+    font-size: 40px;
+    margin-top: 1.3rem;
+}
+
+#uppersection ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagedirection li{
+    list-style: none;
+}
+
+#pagedirection li img{
+    margin-top: 10px;
+}
+
+.pagelink{
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+    margin: 9px;
+}   
+
+#pagename{
+    color:  #f14d54;
+}
+/* Form section */
+
+.FormGroup{
+display: block;
+margin: auto;
+width: 75%;
+}
+
+#Registerblock h1,.LoginForm h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#Registerblock h3{
+        color: #3b3939;
+        margin-top: 10px;
+}
+
+#FormRegister{
+        margin: 25px 0px;
+}
+
+#FirstNamediv{
+    display: inline-block;
+    width: 49%;
+}
+
+#LastNamediv{
+width: 47%;
+display: inline-block;
+margin-left: 20px;
+}
+
+#Emaildiv{
+    margin-top: 40px;
+}
+
+.RegisterLabel{
+    display: block;
+    font-size: 20px;
+}
+
+#FirstName,#LastName,#Email{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+}
+#Email{
+    width: 98%;
+    height: 45px;
+    margin-top: 20px;
+}
+
+/* Login form */
+
+.LoginForm{
+    display: block;
+    width: 75%;
+    margin: 50px auto;
+}
+.passworddiv,.confirmpassworddiv{
+    display: inline-block;
+    margin-top: 20px;
+    width: 49%;
+}
+
+#passwordlabel,#confirmpasswordlabel{
+    display: block; 
+}
+
+.Loginlabel{
+    font-size: 20px;
+}
+
+#password,#confirmpassword{
+    width: 92%;
+    height: 45px;
+    margin: 19px 0px
+} 
+
+.btnregister{
+    display: block;
+    width: 77%;
+    margin: auto;
+}
+
+#Registerbtn{
+    background-color: #f14d54;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#Registerbtn h1{
+    color: #fff;
+}
+
+/* footer */
+
+.copyrightdata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6E6E6;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* LoginPage section */
+
+.loginsection{
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+#newcustomer{
+    display: inline-block;
+    width: 46%;
+}
+
+.customerlabel{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#NewCustinformation{
+    display: inline-block;
+}
+
+#NewCustinformation p,#Registeredlabel p{
+    opacity: 0.7;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#NewCustinformation li{
+    margin-bottom: 15px;
+}
+
+#RegisteredCustomer{
+    display: inline-block;
+    width: 46%;
+    margin-left: 20px;
+}
+
+#loginpageEmaildiv{
+    margin-top: 20px;
+    display: block;
+}
+
+#loginEmaillabel, #loginPasswordlabel{
+    display: block;
+}
+
+#loginEmail,#loginPassword{
+    width: 70%;
+    margin-top: 15px;
+    height: 30px;
+}
+
+#loginpagepassworddiv{
+    display: block;
+    margin-top: 40px;
+}
+
+#loginpagenewcustbtndiv{
+    margin-top: 134px;
+}
+
+#loginpageRegisteredbtndiv{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.loginpageformbtn{
+    height: 45px;
+    background-color: #f14d54;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+#createanaccbtn{
+    width: 220px;
+}
+
+#loginbtn{
+    width: 100px;
+}
+
+/* Book List .pagelink */
+
+.booklistcontainer{
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+#booklisttitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#booksearchdiv{
+    display: flex;
+    justify-content: end;
+    margin-top: 45px;
+    margin-bottom: 32px;
+}
+
+#Searchbox{
+    height: 45px;
+    width: 18%;
+    padding-left: 10px;
+}
+
+#AddProduct{
+    height: 45px;
+    width: 158px;
+    background-color: #f14d54;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* Tabel section */
+
+.table-responsive table{
+    width: 100%;
+}
+
+.table-responsive table td, .table-responsive table th {
+    color: #212121;
+    font-weight: 500;
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    padding: 16px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.table-responsive table td{
+    font-weight: 400;
+}
+
+.table-responsive .btn-list {
+    justify-content: flex-end;
+    display: flex;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+.blue-border-btn{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #f14d54;
+    border: 2px solid #f14d54;
+    padding: 6px 30px;
+    border-radius: 6px;
+    width: 80px;
+}
+
+.blue-border-btn:hover{
+    background-color: #f14d54;
+    color: #fff;
+}
+
+.green-border-btn{
+    text-decoration: none;
+    color: #80BF32;
+    border: 2px solid #80BF32;
+    padding: 6px 30px;
+    border-radius: 6px;
+    width: 80px;
+}
+
+.green-border-btn:hover{
+    background-color: #80BF32;
+    color: #fff;
+}
+
+.next-prev-list {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.next-prev-list li.disable {
+    opacity: 0.2;
+}
+
+.next-prev-list li a {
+    display: block;
+    cursor: pointer;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    width: 48px;
+    justify-content: center;
+    font-size: 0;
+}
+
+.next-prev-list li a svg {
+    width: 24px;
+}
+.next-prev-list li {
+    width: 48px;
+    height: 48px;
+}
+
+.bottomsection{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 28px;
+    margin-bottom: 80px;
+}
+
+.bottomsection p{
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+#pageselector{
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* Edit Product List */
+.EditProductForm{
+    display: block;
+    width: 78%;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+.inputbox{
+    width: 100%;
+    height: 40px;
+    color: rgb(33, 33, 33);
+}
+
+/* .Editproductdiv{
+    display: inline-block;
+} */
+.Editproductlabels,.Editcategoriesdiv p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #414141;
+    display: block;
+}
+
+.btnclass{
+    height: 40px;
+    width: 100px;
+    background-color: #f14d54;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#savebtn{
+    background-color: #80BF32;
+}
+
+.EditLastnamediv,.EditFirstnamediv{
+    display: inline-block;
+    margin-left: 20px;
+    width: 45%;
+}
+
+.Editdescriptiondiv,.Editcategoriesdiv{
+    display: inline-block;
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.choosefilediv{
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 12px;
+}
+
+.selectedpicture{
+    padding-left: 100px;
+    width: 93%;
+}
+.btndiv{
+    margin-top: 35px;
+}
+
+#uploadbtn{
+    border-radius: 0px;
+    position: relative;
+    left: 2px;
+    height: 42px;
+    top: 44px;
+}
+
+.btndiv{
+    margin-left: 20px;
+}
+
+/* Prodyct Listing */
+
+.productsheader{
+    display: block;
+}
+
+.productsheader h2{
+    font-size: 18px;
+    color: #414141;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.sorteddiv{
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.sorteddiv p{
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 18px
+}
+
+.sorteddiv select{
+    width: 200px;
+    height: 40px;
+}
+
+#bookimagesdiv{
+    display: grid;
+    margin: 70px 68px 0 100px;
+    padding-right: 30px;
+    grid-template-columns: repeat(4,2fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.bookdetailscontainer{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bookdetailscontainer img{
+    height: 125px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px
+}
+
+.imgtitle{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.imgsecoundtitle{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.imgdetails{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.prevmrp{
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.imgdiscount{
+    font-size: 18px;
+    display: inline-block;
+    color: #0ee60e;
+    margin-bottom: 5px;
+}
+
+.MRP{
+    margin-left: 10px;
+}
+
+.bookdetailscontainer button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 85%;
+    height: 34px;
+    color: white;
+    background-color: #f14d54;
+    border-radius: 6px;
+    margin-left: 13px;
+}
+
+/* CART PAGE  */
+
+#cartdatadiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+#cartdataheader{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#cartheader1h2{
+    display: inline-block;
+    font-size: 18px;
+    color: #414141;
+}
+
+#cartheader2h2{
+    display: inline-block;
+    margin-left: 110px;
+    font-size: 18px;
+    color: #414141;
+}
+
+#cartpagetitle{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.cartitemdetails{
+    border-radius: 1px;
+    border: 2px solid;
+    background-color: #E6E6E6;
+    width: 485.2px;
+    height: 145.2px;
+    margin-bottom: 30px;
+}
+
+.itemimg{
+    height: 117.2px;
+    width: 150px;
+    margin: 15px;
+}
+
+.campus{
+    display: inline-block;
+    position: absolute;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.cartitemMRP{
+    display: inline-block;
+    position: relative;
+    left: 251px;
+    bottom: 112px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.Cartitemname{
+    display: inline-block;
+    position: relative;
+    bottom: 86px;
+    left: -38px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #f14d54;
+}
+
+.cartprevmrp{
+    display: inline-block;
+    position: relative;
+    left: 14px;
+    opacity: 0.4px;
+    bottom: 86px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.cartdiscount{
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    bottom: 86px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #f14d54;
+}
+
+.plusbtn{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    left: -260px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #f14d54;
+    height: 20px;
+    width: 20px;
+}
+
+.numofitem{
+    display: inline-block;
+    position: relative;
+    bottom: 89px;
+    left: 227px;
+    margin-left: 12px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.minusbtn{
+    display: inline-block;
+    position: relative;
+    bottom: 84px;
+    left: 228px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #f14d54;
+    height: 20px;
+    width: 20px;
+}
+
+.removebtn{
+    position: relative;
+    left: 334px;
+    bottom: 89px;
+    border: none;
+    margin-top: 15px;
+    font-weight: 900;
+    background-color: #E6E6E6;
+    font-size: 20px;
+    color: #f14d54;
+    cursor: pointer;
+}
+
+#placeorderbtndiv{
+    display: flex;
+    justify-content: center;
+}
+
+#placeorderbtn{
+    background-color: #f14d54;
+    color: white;
+    width: 140px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+/* Media  */
+
+@media (max-width:1199px){    
+    #logo{margin-left: 20px;}
+    #login-register_label{right: 56px;}
+    #cart{right: 30px;}
+    .FormGroup{   width: 100%;         margin: 50px 20px 0px 20px;}
+    .LoginForm{ width:100% ;margin: 70px 20px 0px 20px;}
+    .btnregister{margin-left: 10px;}
+}
+
+@media (max-width: 767px){
+    #FirstNamediv,#LastNamediv,#Emaildiv,.confirmpassworddiv,.passworddiv{ display: block; width: 100%; margin: 25px 0px; padding-right: 20px;}
+    #booksearchdiv{justify-content: normal;}
+    #Searchbox{width: 68%;}
+    #AddProduct{width: 145px;margin-left: 20px;}
+    .productsheader h2{margin-left: 28px;}
+
+    .sorteddiv{ margin-left: 30px; margin-top: 17px;margin-bottom: 20px;}
+    #booklisttitle{font-size: 20px;}
+    
+    #bookimagesdiv {
+        display: grid;
+        margin: 70px 68px 0 100px;
+        padding-right: 30px;
+        grid-template-columns: repeat(2,2fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:575px){
+    #uppersection h1{ font-size: 22px;}
+    #Registerblock h1,.LoginForm h1{ font-size: 20px;}
+    #newcustomer,#RegisteredCustomer{display: block;
+        width: 100%;}
+    #createanaccbtn,#loginbtn,#loginEmail, #loginPassword{width: 100%;}
+    #RegisteredCustomer{margin-left: 0px;}
+    #loginpagenewcustbtndiv{margin-top: 34px;}
+    .EditFirstnamediv,.Editproductdiv.EditLastnamediv, .Editproductdiv,.Editcategoriesdiv,.Editproductdiv,.Editdescriptiondiv,.Editproductdiv{display: block;
+        width: 100%;
+        margin-top: 20px}
+}
+    
+@media (max-width:479px){
+    #logo img{width: 142px;
+        display: inline-block;
+        position: relative;
+        top: 40px;}
+    #login-register_label{    top: -4px;
+        left: 50%;
+        width: 100%;
+        position: absolute;
+        transform: translateX(-50%);
+        justify-content: center;
+        display: flex;}
+    #cart{  display: inline-block;
+            top: 66px; }
+    #bottomheaderpart {display: block;}
+    #Serchingtab{display: block; width: 83%;}
+    #searchbtn{
+            display: inline-flex;
+            position: relative;
+            top: -14px;
+             width: 41%;
+            margin-left: 25px;}
+    #cancelbtn{display: inline-flex;
+        margin-left: 10px;
+        position: relative;
+        top: -15px;
+        width: 41%}
+    #cancelbtn h3{    display: block;
+            margin: auto;
+            width: 100%;}
+    #booklisttitle{font-size: 20px;}
+    #booksearchdiv{display: block;
+                margin: auto;
+            }
+    #Searchbox{width: 83%;
+        margin-left: -20px;}
+    #AddProduct{    margin-top: 15px;
+        margin-left: -22px;
+        width: 87%}
+    
+        
+        #bookimagesdiv {
+            display: grid;
+            margin: 70px 68px 0 100px;
+            padding-right: 30px;
+            grid-template-columns: repeat(1,2fr);
+            column-gap: 30px;
+            row-gap: 30px;
+        }
+}
